@@ -27,15 +27,18 @@ class HomePage extends StatelessWidget {
                         width: 20,
                         height: 20,
                         decoration: BoxDecoration(
-                          color: Colors.blue,
+                          color: Colors.green,
                           shape: BoxShape.circle,
                         ),
-                        child: Center(
-                          child: Text('15'),
+                        child: Center(child:
+                            Text(
+                                '15',
+                                style: TextStyle(fontSize: 10)
+                            )
                         ),
-                      )
+                      ),
                     ],
-                  )
+                  ),
                 ),
               ),
             ],
@@ -66,7 +69,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
 
-                  SizedBox(
+                SizedBox(
                   width: 400,
                   child: ListTile(
                     leading: const CircleAvatar(
@@ -84,7 +87,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
 
-                  SizedBox(
+                SizedBox(
                   width: 400,
                   child: ListTile(
                     leading: const CircleAvatar(
@@ -102,8 +105,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
 
-
-                  SizedBox(
+                SizedBox(
                   width: 400,
                   child: ListTile(
                     leading: const CircleAvatar(
@@ -121,8 +123,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
 
-
-                  SizedBox(
+                SizedBox(
                   width: 400,
                   child: ListTile(
                     leading: const CircleAvatar(
@@ -139,17 +140,6 @@ class HomePage extends StatelessWidget {
                     },
                   ),
                 ),
-
-
-
-
-
-
-
-
-
-
-
               ],
             ),
           ),
